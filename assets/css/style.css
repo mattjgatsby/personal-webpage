@@ -1,0 +1,20 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    background-color: antiquewhite;
+}
+
+.header h1 {
+    background-color: aqua;
+    color:white
+
+}
+.header ul {
+    list-style-type: none;
+}
+.header h1 li {
+display:inline-block;
+float: right;
+}
+.p {
+    background-image: ;
+}
