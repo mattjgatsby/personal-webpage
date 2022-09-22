@@ -2,17 +2,44 @@
 <html lang="en">
     <head>
         <meta charset="UFT-8">
-        <title>My Personal Webpage</title>
+        <meta name="viewport">
         <link rel="Stylesheet" type="text/css" href="./assets/css/style.css">
+        <title>My Webpage!</title>
     </head>
 
     <body>
-        <header class="header">
-            <h1>Matt Gatsby's Webage!</h1>
+        <header class="right">
+            <h1 class="center">Matt Gatsby's Webage!</h1>
+            <nav>
                 <ul>
-                    <li>Contact Info!</li>
+                    <li><a href="https://github.com/mattjgatsby">My GitHub!</a></li>
+                    <li><a href=#contact>Contact</a></li>
+                    <li><a href="#">Portfolio</a></li>
                 </ul>
+            </nav>
         </header>
-        <section class="p"></section>
+
+        <main>
+            <h2 class="center">Welcome to My Page!</h2>
+            <figure>
+                <img src="./assets/images/Beau.JPG" alt="Picture of my Dog">
+                <caption>Graphic design is my Passion</caption>
+            </figure>
+            <section>
+                <h3 class="center">Contact Me</h3>
+                <form>
+                    <label class="right" for="name">Name:</label>
+                    <input type="text" id="name" name="user-name">
+                    <label class="right" for="email">Email:</label>
+                    <input type="text" id="email" name="user-email">
+                <div class="center">
+                    <button type="submit">SEND</button>
+                </div>
+                </form>
+            </section>
+        </main>
+        <footer class="center">
+            Thanks for stopping by!
+        </footer>
     </body>
 </html>
